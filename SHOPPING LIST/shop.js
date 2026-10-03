@@ -36,3 +36,12 @@ heading.style.color = `red`;
 console.log(heading);
 
 //document.querySelector
+
+//it only selects single elements
+
+console.log(document.querySelector(`h1`));
+console.log(document.querySelector(`new-id`));
+console.log(document.querySelector(`input[type="text"]`));
+
+
+// we can use this elemts 
